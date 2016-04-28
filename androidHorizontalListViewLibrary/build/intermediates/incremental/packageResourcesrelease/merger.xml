@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Android\essam\fawaz\Fawaz\androidHorizontalListViewLibrary\src\main\res"><file path="E:\Android\essam\fawaz\Fawaz\androidHorizontalListViewLibrary\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="HorizontalListView">
+        <attr format="dimension" name="dividerWidth"/>
+        <attr name="android:divider"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:fadingEdgeLength"/>
+    </declare-styleable></file></source><source path="E:\Android\essam\fawaz\Fawaz\androidHorizontalListViewLibrary\build\generated\res\rs\release"/><source path="E:\Android\essam\fawaz\Fawaz\androidHorizontalListViewLibrary\build\generated\res\resValues\release"/></dataSet><dataSet config="release"><source path="E:\Android\essam\fawaz\Fawaz\androidHorizontalListViewLibrary\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="HorizontalListView"><attr format="dimension" name="dividerWidth"/><attr name="android:divider"/><attr name="android:requiresFadingEdge"/><attr name="android:fadingEdgeLength"/></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="droidahmed.com.fawaz" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!--<meta-data   production-->
+        <!--android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="AIzaSyDnVrG2eOUuwrWA7AAtzJNRhQeW0k3uiRw" />-->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAp_LD4V9QCb0BUEELQ1h5USEwyha0rSMM"/>
+
+        <!-- <activity -->
+        <!-- android:name=".AboutUsActivity" -->
+        <!-- android:label="@string/action_settings" /> -->
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ChooseLang"
+            android:label="@string/title_activity_choose_lang" >
+        </activity>
+        <activity
+            android:name=".AboutUS"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".SocialMedia"
+            android:label="@string/title_activity_social_media"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CountryData"
+            android:label="@string/title_activity_country_data" >
+        </activity>
+    </application>
+
+</manifest>

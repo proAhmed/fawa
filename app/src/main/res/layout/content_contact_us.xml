@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bc_cas"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_contact_us" tools:context="droidahmed.com.fawaz.ContactUs">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cancel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/contact_back"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:gravity="center"
+
+            android:text="Contact us"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3.8">
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kuwait"/>
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="PO BOX 20423 Safat, 13065, Kuwait"/>
+
+        <TextView
+            android:id="@+id/landLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:text="Landline: +965-229420000 Call Center:, 1888010"/>
+
+        <TextView
+            android:id="@+id/fax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Fax: +96524346988"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal"
+            android:text="E-mail: kw.fawaz.com"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="6.5">
+
+        <TextView
+            android:id="@+id/send_us"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Send us a direct email using the form below"/>
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:textSize="15sp"
+            android:paddingLeft="10sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box"
+            android:hint="Your Name"/>
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box"
+            android:paddingLeft="10sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:hint="Email Address"/>
+
+        <EditText
+            android:id="@+id/edTelephone"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:textSize="15sp"
+            android:paddingLeft="10sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/box"
+            android:layout_gravity="center_horizontal"
+            android:hint="Telephone"/>
+
+        <EditText
+            android:id="@+id/edMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/box_message"
+            android:textSize="16sp"
+            android:paddingLeft="10sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:gravity="top"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:hint="Message"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4.5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="right"
+            android:layout_weight="1">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/submit"
+                    android:layout_width="100dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/sumbit_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="13dp"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:text="submit"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/contactUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/us_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="17sp"
+                    android:text="  Contact \n       us"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.29"/>
+    </LinearLayout>
+</LinearLayout>
