@@ -38,7 +38,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="#fff"
-                android:src="@drawable/us_icon"/>
+                android:src="@drawable/circle_button"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="#fff"
-                android:src="@drawable/us_icon"/>
+                android:src="@drawable/circle_button"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -90,7 +90,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="#fff"
-                android:src="@drawable/about_us"/>
+                android:src="@drawable/circle_button"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="@string/about_us_l"/>
 
         </FrameLayout>
         <LinearLayout

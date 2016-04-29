@@ -91,8 +91,8 @@ public class OrderFragment extends Fragment {
 //        mainActivity.ui("Products");
         getActivity().findViewById(R.id.imgLogo).setVisibility(View.GONE);
         getActivity().findViewById(R.id.imgBack).setVisibility(View.VISIBLE);
-        getActivity().findViewById(R.id.textTitle).setVisibility(View.VISIBLE);
-     TextView tv = (TextView) getActivity().findViewById(R.id.textTitle);
-        tv.setText(getString(R.string.order));
+//        getActivity().findViewById(R.id.textTitle).setVisibility(View.VISIBLE);
+//     TextView tv = (TextView) getActivity().findViewById(R.id.textTitle);
+//        tv.setText(getString(R.string.order));
     }
 }

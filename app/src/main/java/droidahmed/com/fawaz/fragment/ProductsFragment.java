@@ -89,7 +89,7 @@ public class ProductsFragment extends Fragment implements
 //        mainActivity.ui("Products");
         getActivity().findViewById(R.id.imgLogo).setVisibility(View.GONE);
         getActivity().findViewById(R.id.imgBack).setVisibility(View.VISIBLE);
-        getActivity().findViewById(R.id.textTitle).setVisibility(View.VISIBLE);
+      //  getActivity().findViewById(R.id.textTitle).setVisibility(View.VISIBLE);
     }
 
     @Override

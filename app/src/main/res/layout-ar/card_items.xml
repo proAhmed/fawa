@@ -5,7 +5,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android" >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <ImageView
         android:src="@drawable/air_condition"
@@ -66,7 +67,8 @@
         android:layout_marginRight="20dp"
 
         android:layout_marginTop="15dp"
-        android:text="بارد او سخن وبارد"/>
+        android:text="بارد او سخن وبارد"
+        android:id="@+id/tvCold" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -75,7 +77,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="4dp"
 
-        android:text="كمبروسير نوع ريترو"/>
+        android:text="كمبروسير نوع ريترو"
+        android:id="@+id/tvCompress" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,7 +87,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="4dp"
 
-        android:text="امكانية التحكم من بعد"/>
+        android:text="امكانية التحكم من بعد"
+        android:id="@+id/tvRemote" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -94,7 +98,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="4dp"
 
-        android:text="  220V فولت"/>
+        android:text="  220V فولت"
+        android:id="@+id/tvVoltage" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -103,7 +108,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="4dp"
 
-        android:text="نوع الفلتر"/>
+        android:text="نوع الفلتر"
+        android:id="@+id/tvFilter" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -112,6 +118,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="4dp"
 
-        android:text="مضاد للبكتريا"/>
+        android:text="مضاد للبكتريا"
+        android:id="@+id/tvBacterial" />
 </LinearLayout>
     </android.support.v7.widget.CardView>
